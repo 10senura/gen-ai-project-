@@ -1,23 +1,34 @@
+
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
-.container {
     text-align: center;
-    background-color: white;
+    margin: 50px;
+    background-image: url('https://source.unsplash.com/1600x900/?ai,technology');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.container {
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
-
+#fact {
+    font-size: 20px;
+    margin: 20px 0;
+}
 button {
-    background-color: #4CAF50;
-    color: white;
     padding: 10px 20px;
-    border: none;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
